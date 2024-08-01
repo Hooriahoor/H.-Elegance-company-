@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin: 50px;
+}
+header{
+    background-color: rgb(165, 1, 102);
+    padding: 12px ;
+    position: sticky;
+    top: 0 ;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px auto;
+}
+nav ul{
+    display: flex;
+    gap: 16px;
+}
+.logo {
+    font-weight: 300;
+    font-size: 32px
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+/* Hero */
+.hero-section{
+    background-image: url(hero_image.png);
+    height: 150vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-section .container{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.hero-section h1{
+    font-size: 68px;
+    color: #ffffff;
+    font-family: cursive;
+    font-weight: 50px;
+    text-decoration: underline;
+}
+.hero-section h3{
+    font-size: 24px;
+    color: white;
+    text-decoration: solid;
+    text-decoration: line-through;
+}
+/* Makeup Section */
+.makeup-section{
+    padding: 20px;
+    background-color:rgb(165, 1, 102) ;
+}
+.makeup-container h2{
+display: flex;
+flex-direction: column;
+place-items: center;
+}
+.makeup-section h4{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.makeup-container h3{
+text-align: center;
+padding: 15px 65px;
+
+}
+.makeup-container h4{
+    text-align: center;
+   font-weight: light;
+}
+.primary_button{
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(199, 8, 8);
+    color: white;    
+}
+button{
+margin-left: 40%;
+margin-top: 20px ;
+margin-bottom: 20px;
+}
+#para2{
+    text-align: center;
+    padding: 25px ;
+}
+.makeup-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+.pic_makeup{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+    margin-left: 180px;
+}
+/*  About Music */
+.about_makeup{
+    padding-top: 400px;
+    gap: 50px;
+}
+.about_makeup h4{
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.secondary_button{
+    width: 150px;
+    height: 35px;
+    font-weight: 600;
+    background-color: rgb(165, 1, 102);
+    color: white; 
+}
+.about_makeup h3{
+    font-weight: 1000;
+    text-decoration: underline;
+    text-align: center;
+}
+.about_img{
+    padding-left: 15%;
+}
+/* video section */
+
+.video_section{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(165, 1, 102);
+}
+.video_section .container{
+    z-index: 1;
+    position: absolute;
+} 
+video{
+    height: 90vh;
+    width: 100%;
+}
+.video_section h3{
+    text-align: center;
+    margin: 15px;
+    padding-top: 10%;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: underline;   
+}
+.video_section p{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 35px;
+}
+/* gift card */
+.gift_section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+    
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.gift-content h3{
+    font-weight: 900;
+    padding-top: 100px;
+}
+.gift-content p{
+    padding: 20px;
+}
+.gift-content button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(165, 1, 102);
+    margin-right: 30%;
+}
+/* footer */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 160px;
+    background-color: rgb(165, 1, 102);
+    padding: 50px;
+    color: #ffffff;
+}
+.footer-link h4{
+    text-decoration: underline;
+    text-size-adjust:10px ;
+    padding-bottom: 20px;
+}
+
+.footer-lower{
+    background-color: rgb(231, 3, 144);
+    text-align: center;
+    padding: 15px;
+}
